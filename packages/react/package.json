@@ -1,0 +1,31 @@
+{
+  "name": "@workspace/react",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Zach Larson <zlarson@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/react.test.js",
+    "build": "npm run tsc",
+    "watch": "tso-p. -w",
+    "tsc": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.2"
+  }
+}

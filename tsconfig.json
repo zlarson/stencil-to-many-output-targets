@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "module": "es2015",
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "removeComments": false,
+        "strictPropertyInitialization": false,
+        "target": "es2017",
+        "baseUrl": ".",
+        "paths": {
+            "@workspace/stencil": [
+                "./packages/stencil"
+            ],
+            "@workspace/stencil/loader": [ 
+                "./packages/stencil/loader"
+            ],
+            "@workspace/angular": [
+                "./packages/angular/dist/component-lib"
+            ],
+            "@workspace/react": [
+                "./packages/react/dist"
+            ],
+            "@workspace/vue": [
+                "./packages/vue/dist"
+            ]
+        }
+    }
+}
